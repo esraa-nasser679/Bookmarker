@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+
+body
+{
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Pacifico", cursive;
+}
+
+a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+header
+{
+    background-color: #f7ecde;
+    position: relative;
+}
+
+header h1
+{
+    isolation: isolate
+}
+
+
+.item
+{
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black ;
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item h2
+{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background: linear-gradient(
+        to right,
+        #3ca55c 40%,
+        green 40% 60%,
+        #b5ac49 60% 80%,
+        green 60% 80%,
+        blue 80%
+      );
+    /* background-image: linear-gradient(to right, #3ca55c, #b5ac49); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+} 
+.item button
+{
+    background-color: #d1512d;
+} 
+
+.item button:hover
+{
+    background-color: #b2300c;
+} 
+
+
+
+
+.data
+{
+    background-color: #d1512d;
+}
+
+
+
+.coloor1
+{
+    background-color: #9eb23b;
+    color: white;
+}
+.coloor1:hover
+{
+    background-color: #8a9e23;
+    border: 1px solid #6e8018;
+    color: white;
+}
+
+.coloor2
+{
+    background-color: #eb1d36;
+    color: white;
+}
+.coloor2:hover
+{
+    background-color: #d30820;
+    border: 1px solid #ba081d;
+    color: white;
+}
+
+
+
+
+
+
+/* alarm */
+
+.box-infoo
+{
+    background-color: #0007;
+}
+
+.box-conent
+{
+    z-index: 10;
+    width: 500px;
+}
+
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.circle11
+{
+    background-color: #f15f5d;
+}
+
+.circle12
+{
+    background-color: #febe2e;
+}
+
+.circle13
+{
+    background-color: #4db748;
+}
